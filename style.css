@@ -46,3 +46,23 @@ li:hover:after {
 .imgbis {
   margin: 100px auto;
 }
+
+.myli {
+  text-decoration: none;
+  margin: auto;
+  color: 74BDCB;
+  font-size: 20px;
+  cursor: pointer;
+  color: #efe7bc;
+}
+.myli.after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #efe7bc;
+  padding-bottom: 1%;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+.myli.hover.after {
+  transform: scaleX(1);
+}
